@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./news-footer-style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google icon link -->
@@ -496,7 +497,132 @@
     </section>
     <section></section>
     <!-- Newsletter **K.Mint**-->
-    <section></section>
+    <section class="last-page flex- w-screen h-screen">
+      <section id="newsletter" class="flex justify-center">
+        <div
+          id="sign-up-new"
+          class="w-[1100px] h-[349px] rounded-2xl bg-[#f4f7fc]"
+        >
+          <form
+            id="sign-up-email"
+            class="flex pt-14 flex-col font-medium items-center"
+          >
+            <label
+              for="email-address"
+              class="text-4xl text-center text-[#0b0757]"
+              >Sign up to ournewsletter</label
+            >
+
+            <div
+              id="detail-sign"
+              class="text-xl text-center pt-6 font-normal text-[#8480ae]"
+            >
+              <p>Recive latest news, updates and many other</p>
+              <p>news every week.</p>
+            </div>
+            <div id="summit-email" class="pt-10 relative">
+              <input
+                type="email"
+                id="email-address"
+                name="enter-email"
+                class="rounded-full w-[480px] h-[67px] text-base font-normal pl-10 focus:outline-none focus:border-2 border-blue-900"
+                placeholder="Enter your email address"
+              />
+
+              <button type="submit" class="absolute right-4 bottom-2.5">
+                <div
+                  id="button-summit"
+                  class="w-12 h-12 rounded-full flex justify-center items-center bg-[#1374F6] hover:bg-blue-400 active:bg-blue-500"
+                >
+                  <i id="arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer
+        id="footer-page"
+        class="flex-col items-center justify-center"
+      >
+        <div class="flex justify-center">
+          <div
+            class="grid grid-cols-5 gap-x-5 w-[1121px] pb-20 mt-20 border-b-[1px] border-[#d1d0e6]"
+          >
+            <div id="agencio" class="col-start-1 col-end-3">
+              <h1 class="text-2xl font-medium text-[#0b0757] pb-5 relative"><img src="\img\Polygon 3.svg" class="inline-block pr-5 "><img src="\img\Polygon 4.svg" class="inline-block absolute left-2 top-1"> Agencio</h1>
+              <p class="text-[#8480AE]">
+                Winged moving moveth created for shall and a 
+                <p class="text-[#8480AE]">divide the their
+                  days male midst shall hath </p>
+                  <p class="text-[#8480AE]">doesn't won't for. Midst life.Over a
+                    great night.</p>
+              </p>
+              <div id="logo-social" class="flex-row inline-flex gap-4 pt-5">
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (3).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (2).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (1).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame.svg">
+                </a>
+
+              </div>
+            </div>
+            <div id="feature" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                Feature
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Analytic</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Activity</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Influencer</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Publishing</li></a>
+                
+              </div>
+            </div>
+            <div id="about" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                About
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Blog</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Pricing</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Company</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Careers</li></a>
+
+              </div>
+            </div>
+            <div id="resources" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                Resources
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2 ">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Application Security</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Software Policy</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Supply Chain</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Manage Reputation</li></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="copyright" class="flex justify-center pt-10 text-[#0B075733]">
+          Copyright ©2020 Agencio. All Rights Reserved
+        </div>
+      </footer>
+    </section>
     <!-- Footer **K.Mint**-->
   </body>
 </html>
