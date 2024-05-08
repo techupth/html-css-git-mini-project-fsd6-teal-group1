@@ -3,12 +3,3 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-#arrow-right {
-  border: solid rgb(255, 255, 255);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
