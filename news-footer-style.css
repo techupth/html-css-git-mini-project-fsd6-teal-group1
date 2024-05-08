@@ -12,3 +12,26 @@
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+
+@media only screen and (max-width: 768px) {
+  #footer-page {
+    display: none;
+  }
+
+  /*hide sub-list*/
+  .dropdown-feat ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .dropdown-feat div::active ul {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #footer-page-mobile {
+    display: none;
+  }
+}
