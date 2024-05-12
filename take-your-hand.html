@@ -6,70 +6,80 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="w-full min-h-[791px] flex justify-center">
+    <section class="w-full min-h-[791px] flex justify-center shrink-[2]">
       <main
-        class="take-your-hand-container max-w-[1176px] flex gap-[95px] relative pl-[68px]"
+        class="take-your-hand-container max-w-[1176px] flex gap-[95px] relative pl-[68px] max-[1176px]:flex-col-reverse max-[768px]:pl-[18px] max-[768px]:gap-[32px] overflow-hidden"
       >
         <img
           src="./images/Rectangle 137.png"
           alt=""
           width="1273px"
-          height="855.5px"
-          class="absolute top-0 left-[68px] z-[-1] max-[1120px]:top-0 max-[1120px]:left-0"
+          class="absolute top-0 left-[68px] z-[-1] max-[1176px]:left-0 max-[1176px]:h-[913.5px] max-[768px]:hidden"
         />
-    
+        <img
+          src="./images/Rectangle 137.svg"
+          alt=""
+          height="913.5px"
+          class="absolute top-0 z-[-1] hidden left-0 max-[768px]:block"
+        />
+
         <!-- flex item1 -->
         <article
-          class="z-10 relative"
+          class="z-10 relative shrink-0 max-[768px]:flex justify-center max-[768px]:pb-[108px] max-[1176px]:pb-[108px]"
         >
-        <img
-          src="./images/Mask Group.png"
-          alt=""
-          width="444px"
-          class="w=[444px] object-contain"
-        />
+          <img
+            src="./images/Mask Group.png"
+            alt=""
+            width="444px"
+            class="max-[768px]:w-[250px] object-contain"
+          />
           <img
             src="./images/Group 41.svg"
             alt=""
             width="200px"
-            class="absolute left-[-100px] top-[325px]"
+            class="absolute left-[-100px] top-[325px] max-[768px]:hidden"
+          />
+          <img
+            src="./images/Group 41 (1).svg"
+            alt=""
+            height="100px"
+            class="absolute left-[-30px] top-[170px] hidden max-[768px]:block"
           />
         </article>
         <!-- flex item2 -->
-        <article class="max-w-[570px] z-[10] flex flex-col pt-[203px] gap-[40px] pb-[10px]">
-          
-            <h1
-              class="text-[#0B0757] w-[404px] relative
-              font-[500] text-[48px] leading-[56.88px]  
-              max-[760px]:text-[36px] max-[760px]:leading-[42.66px]"
-            >
-              We Take The Work Of Your Hand
-              <img
-                src="./images/Line 9.png"
-                alt=""
-                width="68px"
-                class="absolute bottom-[12px] right-[17px] z-[100] 
-                max-[1120px]:w-[36px]"
-              />
-            </h1>
-            
-              <p>
-                It's crafted with the latest trend of design & coded with all
-                modern approaches. It's a robust & multi-dimensional usable.
-                Nostrum placeat hic, praesent atque ornare minim.
-              </p>
-              <p>
-                nihil suscipit aliquet excepteur bibendum cumque facilis
-                senectus habitant aliquid cupidatat! Fugit? Nisl dignissimos
-                ratione
-              </p>
-              <button
-                class="bg-[#1374F6] w-[160px] h-[60px] rounded-[5px] font-[500] text-white text-center leading-[18.96px] text-[16px]"
-              >
-                Discover More
-              </button>
-            
-          
+        <article
+          class="max-w-[570px] z-[10] flex flex-col pt-[203px] gap-[40px] pb-[10px] shrink max-[768px]:w-[327px] max-[768px]:pt-[146px] max-[768px]:gap-[32px]"
+        >
+          <h1
+            class="text-[#0B0757] w-[404px] relative font-[500] text-[48px] leading-[56.88px] max-[768px]:text-[36px] max-[768px]:leading-[42.66px] max-[768px]:w-[301px]"
+          >
+            We Take The Work Of Your Hand
+            <img
+              src="./images/Line 9.png"
+              alt=""
+              width="68px"
+              class="absolute bottom-[12px] right-[17px] z-[100] max-[768px]:bottom-[9px] max-[768px]:right-[26px] max-[768px]:w-[36px]"
+            />
+          </h1>
+
+          <p
+            class="font-[400] text-[18px] leading-[30px] text-[#8480AE] max-[768px]:text-[14px] max-[768px]:leading-[24px]"
+          >
+            It's crafted with the latest trend of design & coded with all modern
+            approaches. It's a robust & multi-dimensional usable. Nostrum
+            placeat hic, praesent atque ornare minim.
+          </p>
+          <p
+            class="font-[400] text-[18px] leading-[30px] text-[#8480AE] max-[768px]:text-[14px] max-[768px]:leading-[24px]"
+          >
+            nihil suscipit aliquet excepteur bibendum cumque facilis senectus
+            habitant aliquid cupidatat! Fugit? Nisl dignissimos ratione
+          </p>
+          <button
+            class="bg-[#1374F6] w-[160px] h-[60px] rounded-[5px] font-[500] text-white text-center leading-[18.96px] text-[16px]"
+          >
+            Discover More
+          </button>
         </article>
       </main>
     </section>
