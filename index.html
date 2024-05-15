@@ -3,10 +3,787 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./news-footer-style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-header-section.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font awesome icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        <!-- style-pricing-page link -->
+        <link rel="stylesheet" href="./style-pricing-page.css" />
+    <title>Mini-Project-Teal-Group1</title>
   </head>
-  <body>
-    <!-- Start Coding here -->
+
+  <body class="flex flex-col justify-between items-center  overflow-x-hidden">
+    <!-- Header **K.Toei**-->
+    <section class="header w-full h-auto border-spacing-3 flex justify-center"
+    style="background: linear-gradient(5deg, white 15%, #f4f7fc 15%)">
+      <div
+        class="container w-full max-w-[1440px] h-full"
+      >
+        <header
+          class="w-full h-[69px] mt-8 flex justify-between items-center relative"
+        >
+          <div class="logo flex items-center pl-[3%]">
+            <a href="#"><img src="header-img\Logo.png" alt="logo" /></a>
+          </div>
+          <input type="checkbox" id="check" />
+          <label for="check" class="icon">
+            <i class="material-symbols-outlined" id="menu-icon">menu</i>
+            <i class="material-symbols-outlined" id="close-icon">close</i>
+          </label>
+          <nav class="navbar pr-20">
+            <ul class="flex justify-between gap-8 items-center text-[#1F1E61]">
+              <li class="hover:text-[#1374F6]">
+                <a href="#">Home</a>
+              </li>
+              <li class="hover:text-[#1374F6]">
+                <a href="#">Category</a>
+              </li>
+              <li class="hover:text-[#1374F6]">
+                <a href="#">Service</a>
+              </li>
+              <li class="hover:text-[#1374F6]">
+                <a href="#">Blog</a>
+              </li>
+              <li class="hover:text-[#1374F6]">
+                <a href="#">Contact</a>
+              </li>
+              <li
+                class="w-[60%] h-[60px] text-center text-base text-[#0B0757] p-4 rounded-lg bg-[#FDD76E] hover:bg-orange-300 hover:cursor-pointer"
+              >
+                <a href="#">Create Account</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="content w-full h-full flex justify-center">
+          <div
+            class="left-box w-1/2 h-full pt-[80px] px-16 flex flex-col gap-8"
+          >
+            <p class="text-[#1374F6] text-xl">CREATIVE AGENCY <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></p>
+            <p class="pr-20 text-5xl font-medium text-[#0B0757]">
+              We are here to give the best service
+            </p>
+            <p class="text-[18px] text-[#8480AE]">
+              It's crafted with the latest trend of design & coded with all
+              modern approaches. It's a robust & multi-dimensional usable
+              template.
+            </p>
+            <div class="button flex items-center gap-8">
+              <button
+                class="w-40 h-[60px] text-white bg-[#1374F6] rounded-md hover:bg-blue-600"
+              >
+                Get Started
+              </button>
+              <button class="flex text-[#0B0757] text-center gap-3">
+                <img
+                  src="header-img\play-button.png"
+                  alt="play-button"
+                  width="24px"
+                  height="24px"
+                />
+                <span>Watch Video</span>
+              </button>
+            </div>
+          </div>
+          <div class="right-box w-1/2 h-full py-[50px]">
+            <img src="header-img\Group 5763.png" alt="the man" />
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- services **K.Wu**-->  
+<section class="w-full flex justify-center relative ">
+  <img
+        src="./images/dots.png"
+        alt=""
+        height="52px"
+        class="absolute top-[250px] right-0 max-[1120px]:hidden"
+      />
+      <img
+        src="./images/dots.png"
+        alt=""
+        height="52px"
+        class="absolute top-[312px] right-[-9px] max-[1120px]:hidden"
+      />
+  <main
+    class="services-container max-w-[1140px] flex flex-col justify-start gap-5 pt-5"
+  >
+    <header class="relative w-[380px] ml-4 mr-8
+    max-[768px]:w-[264px] 
+    ">
+      <h1
+        class="font-[500] text-[48px] leading-[56px] text-[#0B0757]  
+        max-[768px]:text-[30px] max-[768px]:leading-[42px]
+        relative"
+      >
+        Lets Check Our Services
+      <img
+      src="./images/Line 8.png"
+      alt=""
+      height="0"
+      width="68px"
+      class="absolute bottom-[12px] right-[67px] 
+      max-[768px]:right-[90px] max-[768px]:bottom-[9px] max-[768px]:w-[36px]"
+    />
+  </h1>
+    </header>
+
+    <!-- item group -->
+    <div
+      class="flex flex-wrap gap-0 mb-[128px]
+      max-[1344px]:pr-[0px] 
+      max-[768px]:flex-col max-[768px]:ml-4 max-[768px]:mb-0"
+    >
+      <!-- group1 -->
+      <article
+        class="flex flex-col gap-4 w-[285px] h-[296px] hover:bg-[#F9FBFF] pl-[32px] pr-[20px] pt-[31px] rounded-lg cursor-pointer
+        max-[768px]:h-[296px] max-[768px]:w-[285px] max-[768px]:pt-[24px] max-[768px]:pb-[34px] max-[768px]:px-[20px] max-[768px]:gap-[32px]"
+      >
+        <img
+          src="./images/Group 34.png"
+          alt=""
+          width="79.95px"
+          height="79.95px"
+        />
+        <h4 class="text-[#0B0757] font-[500] text-[20px] leading-[23.7px] ">
+          Increase conversion
+        </h4>
+        <p class="text-[#8480AE] w-full">
+          It's crafted with the latest of design & coded with all trendy &
+          modern approaches.
+        </p>
+      </article>
+
+      <!-- group2 -->
+      <article
+        class="flex flex-col gap-4 w-[285px] h-[296px] hover:bg-[#F9FBFF] pl-[32px] pr-[20px] pt-[31px] rounded-lg cursor-pointer
+        max-[768px]:h-[296px] max-[768px]:w-[285px] max-[768px]:pt-[24px] max-[768px]:pb-[34px] max-[768px]:px-[20px]"
+      >
+        <img
+          src="./images/Group 36.png"
+          alt=""
+          width="79.95px"
+          height="79.95px"
+        />
+        <h4 class="text-[#0B0757] font-[500] text-[20px] leading-[23.7px] max-[768px]:ml-[10px]">
+          Discussion for idea
+        </h4>
+        <p class="text-[#8480AE] w-[233px]">
+          It's crafted with the latest of design & coded with all trendy &
+          modern approaches.
+        </p>
+      </article>
+
+      <!-- group3 -->
+      <article
+        class="flex flex-col gap-4 w-[285px] h-[296px] hover:bg-[#F9FBFF] pl-[32px] pr-[20px] pt-[31px] rounded-lg cursor-pointer
+        max-[768px]:h-[296px] max-[768px]:w-[285px] max-[768px]:pt-[24px] max-[768px]:pb-[34px] max-[768px]:px-[20px]"
+      >
+        <img
+          src="./images/Group 37.png"
+          alt=""
+          width="79.95px"
+          height="79.95px"
+        />
+        <h4 class="text-[#0B0757] font-[500] text-[20px] leading-[23.7px] max-[768px]:ml-[10px]">
+          Product analytics
+        </h4>
+        <p class="text-[#8480AE] w-[233px]">
+          It's crafted with the latest of design & coded with all trendy &
+          modern approaches.
+        </p>
+      </article>
+
+      <!-- group4 -->
+      <article
+        class="flex flex-col gap-4 w-[285px] h-[296px] hover:bg-[#F9FBFF] pl-[32px] pr-[20px] pt-[31px] rounded-lg cursor-pointer
+        max-[768px]:h-[296px] max-[768px]:w-[285px] max-[768px]:pt-[24px] max-[768px]:pb-[34px] max-[768px]:px-[20px]"
+      >
+        <img
+          src="./images/Group 38.png"
+          alt=""
+          width="79.95px"
+          height="79.95px"
+        />
+        <h4 class="text-[#0B0757] font-[500] text-[20px] leading-[23.7px] max-[768px]:ml-[10px]">
+          Perfect testing
+        </h4>
+        <p class="text-[#8480AE] w-[233px]">
+          It's crafted with the latest of design & coded with all trendy &
+          modern approaches.
+        </p>
+      </article>
+    </div>
+  </main>
+</section>*
+
+<!-- Take Your Hand **K.Wu**-->  
+<section class="max-w-[1440px] w-full min-h-[791px] relative">
+  <div class="section-bg h-[855px] w-full z-[-1] flex justify-center  min-h-[791px] max-[1176px]:h-[1031px]">
+    <img
+    src="./images/Rectangle 137.png"
+    alt=""
+    class="absolute top-0 left-[183px] w-[1273px] h-[855px]
+    max-[1176px]:left-0  max-[1176px]:h-[913.5px] max-[768px]:hidden"
+  />
+  <img
+      src="./images/Rectangle 137.svg"
+      alt=""
+      class="absolute top-0 z-[10] hidden
+      left-0  max-[768px]:block h-[900px]"
+    />
+  
+  <main
+    class="take-your-hand-container max-w-[1176px] flex gap-[95px] relative pl-[68px] 
+    max-[768px]:flex-col-reverse max-[768px]:pl-[18px] max-[768px]:gap-[32px] overflow-hidden z-[10]"
+  >
+  
+    
+
+    <!-- flex item1 -->
+    <article
+      class="z-[10] relative shrink-0 
+      max-[768px]:flex justify-center max-[768px]:pb-[108px]
+      max-[1176px]:pb-[108px]"
+    >
+    <img
+      src="./images/Mask Group.png"
+      alt=""
+      width="444px"
+      class="max-[768px]:w-[250px] object-contain "
+    />
+      <img
+        src="./images/Group 41.svg"
+        alt=""
+        width="200px"
+        class="absolute left-[-100px] top-[325px] 
+        max-[768px]:hidden"
+      />
+      <img
+        src="./images/Group 41 (1).svg"
+        alt=""
+        height="100px"
+        class="absolute left-[-30px] top-[170px] hidden max-[768px]:block"
+      />
+    </article>
+    <!-- flex item2 -->
+    <article class="max-w-[570px] z-[10] flex flex-col pt-[203px] gap-[40px] pb-[10px] shrink max-[768px]:w-[327px] max-[768px]:pt-[146px] max-[768px]:gap-[32px] max-[768px]:mr-[34px]">
+      
+        <h1
+          class="text-[#0B0757] w-[404px] relative z-[10]
+          font-[500] text-[48px] leading-[56.88px]  
+          max-[768px]:text-[36px] max-[768px]:leading-[42.66px] max-[768px]:w-[301px]"
+        >
+          We Take The Work Of Your Hand
+          <img
+            src="./images/Line 9.png"
+            alt=""
+            width="68px"
+            class="absolute bottom-[12px] right-[17px] z-[100]
+            max-[768px]:bottom-[9px] max-[768px]:right-[26px] max-[768px]:w-[36px]"
+          />
+        </h1>
+        
+          <p class="font-[400] text-[18px] leading-[30px] text-[#8480AE]
+          max-[768px]:text-[14px] max-[768px]:leading-[24px]">
+            It's crafted with the latest trend of design & coded with all
+            modern approaches. It's a robust & multi-dimensional usable.
+            Nostrum placeat hic, praesent atque ornare minim.
+          </p>
+          <p class="font-[400] text-[18px] leading-[30px] text-[#8480AE]
+          max-[768px]:text-[14px] max-[768px]:leading-[24px]">
+            nihil suscipit aliquet excepteur bibendum cumque facilis
+            senectus habitant aliquid cupidatat! Fugit? Nisl dignissimos
+            ratione
+          </p>
+          <button
+            class="bg-[#1374F6] w-[160px] h-[60px] rounded-[5px] font-[500] text-white text-center leading-[18.96px] text-[16px]"
+          >
+            Discover More
+          </button>
+    </article>
+  </main>
+</div>
+</section>
+<!-- Pricing Plan **K.Nu**-->
+         <section
+         class="section_body flex flex-col justify-center items-center py-10"
+       >
+         <!-- header -->
+         <div class="section_header container my-5">
+           <div
+             class="flex justify-center items-center font-normal text-[1.5em] text-[#8480AE]"
+           >
+             Price Plan
+           </div>
+           <div class="font-medium text-[2.25em] text-[#0B0757]">
+             <div class="flex flex-row justify-center items-center text-center">
+               No Extra Charges!Choose
+             </div>
+             <div class="flex justify-center items-center">Your Plan.</div>
+           </div>
+         </div>
+         <!-- end-header -->
+         <!-- main -->
+         <div class="section_main w-full flex justify-center items-center px-1">
+           <table class="table-fixed w-[90%] max-w-[1110px]">
+            <!-- 1st row -->
+             <thead>
+               <tr>
+                 <!-- size-table:top-left -->
+                 <th class="border w-[275px] h-[160px] max-[784px]:size-1/4"></th>
+                 <th class="border">
+                   <div class="font-medium text-[2.25em] text-[#FDC46E]">
+                     $2000
+                   </div>
+                   <div class="font-normal text-[1.25em] text-[#8480AE]">
+                     Regular
+                   </div>
+                 </th>
+                 <th class="border">
+                   <div class="font-medium text-[2.25em] text-[#00B894]">
+                     $3000
+                   </div>
+                   <div class="font-normal text-[1.25em] text-[#8480AE]">
+                     Premium
+                   </div>
+                 </th>
+                 <th class="border">
+                   <div
+                     class="font-medium text-[2.25em]"
+                     style="color: rgba(19, 116, 246, 1)"
+                   >
+                     $5000
+                   </div>
+                   <div class="font-normal text-[1.25em] text-[#8480AE]">
+                     Corporate
+                   </div>
+                 </th>
+               </tr>
+             </thead>
+             <!-- end 1st row -->
+             <tbody>
+               <!--  2nd row -->
+               <tr>
+                 <td
+                   class="border font-normal text-[1.25em] text-[#8480AE] p-[5%]"
+                 >
+                   Full Access
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#8480AE]">
+                     <span class="material-symbols-outlined">close </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#8480AE]">
+                     <span class="material-symbols-outlined">close </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+               </tr>
+               <!--  end 2nd row -->
+               <!--  3rd row -->
+               <tr>
+                 <td
+                   class="border font-normal text-[1.25em] text-[#8480AE] p-[5%]"
+                 >
+                   Multiple User
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#8480AE]">
+                     <span class="material-symbols-outlined">close </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#8480AE]">
+                     <span class="material-symbols-outlined">close </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+               </tr>
+               <!--  end 3rd row -->
+               <!--  4th row -->
+               <tr>
+                 <td
+                   class="border font-normal text-[1.25em] text-[#8480AE] p-[5%]"
+                 >
+                   Refund
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#8480AE]">
+                     <span class="material-symbols-outlined">close </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+               </tr>
+               <!--  end 4th row -->
+               <!--  5th row -->
+               <tr>
+                 <td
+                   class="border font-normal text-[1.25em] text-[#8480AE] p-[5%]"
+                 >
+                   24/7 Support
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+                 <td class="border">
+                   <div class="flex justify-center text-[#1374F6]">
+                     <span class="material-symbols-outlined">done </span>
+                   </div>
+                 </td>
+               </tr>
+               <!--  end 5th row -->
+               <!--  6th row -->
+               <tr>
+                 <td></td>
+                 <td
+                   class="border max-[768px]:border-0 h-[135px] w-[275px] p-[1%] max-[784px]:size-3/4"
+                 >
+                   <div class="flex flex-col justify-center items-center gap-4">
+                     <div class="flex justify-center items-center w-full">
+                       <button
+                         class="h-[48px] w-full max-w-[120px] text-[#FFFFFF] text-[0.875em] bg-[#FDC46E] border rounded-[5px]"
+                         type="submit"
+                       >
+                         Choose Plan
+                       </button>
+                     </div>
+                     <div
+                       class="flex justify-center items-center font-normal text-center text-[0.875em] text-[#8480AE] max-[768px]:hidden"
+                     >
+                       Get your 30 days free trial
+                     </div>
+                   </div>
+                 </td>
+                 <td
+                   class="border max-[768px]:border-0 h-[135px] w-[275px] p-[1%] max-[784px]:size-3/4"
+                 >
+                   <div class="flex flex-col justify-center items-center gap-4">
+                     <div class="flex justify-center items-center w-full">
+                       <button
+                         class="h-[48px] w-full max-w-[120px] text-[#FFFFFF] text-[0.875em] bg-[#00B894] border rounded-[5px]"
+                         type="submit"
+                       >
+                         Choose Plan
+                       </button>
+                     </div>
+                     <div
+                       class="flex justify-center items-center font-normal text-center text-[0.875em] text-[#8480AE] max-[768px]:hidden"
+                     >
+                       Get your 30 days free trial
+                     </div>
+                   </div>
+                 </td>
+                 <td
+                   class="border max-[768px]:border-0 h-[135px] w-[275px] p-[1%] max-[784px]:size-3/4"
+                 >
+                   <div class="flex flex-col justify-center items-center gap-4">
+                     <div class="flex justify-center items-center w-full">
+                       <button
+                         class="h-[48px] w-full max-w-[120px] text-[#FFFFFF] text-[0.875em] bg-[#1374F6] border rounded-[5px]"
+                         type="submit"
+                       >
+                         Choose Plan
+                       </button>
+                     </div>
+                     <div
+                       class="flex justify-center items-center font-normal text-center text-[0.875em] text-[#8480AE] max-[768px]:hidden"
+                     >
+                       Get your 30 days free trial
+                     </div>
+                   </div>
+                 </td>
+               </tr>
+               <!--  end 6th row -->
+             </tbody>
+           </table>
+         </div>
+       </section>
+<!-- Testimonial **K.March**-->
+<section class="Testimonial-section h-[80vh] w-full max-w-[1440px] flex flex-col justify-center items-center max-[768px]:h-[80%]">
+  <div class="Testimonial-container relative w-full h-full flex flex-row justify-between items-center max-[768px]:flex-col ">
+    <div class="img-container flex flex-col justify-center items-start basis-[20%] h-full min-w-[40%] p-[1%] relative">
+      <img src="Testimonial-pic.jpg" class="object-contain h-[80%] min-h-[300px] max-h-[600px]">
+      <i class="fa-solid fa-thumbs-up bg-[#64D5FD] rounded-md text-white w-[76px] h-[76px] text-center place-content-center text-3xl absolute top-[60%] -left-[3%]"></i>
+    </div>
+    <div class="comment-container basis-[80%] min-w-[60%] p-[1%] pl-[20px] max-h-[100%]">
+      <h1><i class="fa-solid fa-quote-left text-6xl text-[#1374F6]"></i></h1>
+      <p class="text-3xl py-[2%] max-[768px]:text-2xl max-[768px]:text-center">
+        It’s awesome service. Land from day very fill that midst stars one dominion. Itself was let that divided itself god don't subdue wherein let behold over he whose of sea moved called.
+      </p>
+      <p class="text-orange-300 font-bold text-3xl py-[2%] max-[768px]:text-center">
+        Jack Smith
+      </p>
+      <p class="text-xl max-[768px]:text-center">
+        CEO of DIANO
+      </p>
+    </div>  
+  </div>      
+</section>
+    <!-- Newsletter **K.Mint**-->
+    <section class="last-page flex-col w-screen h-full py-[5%]">
+      <section id="newsletter" class="flex justify-center">
+        
+        <div
+          id="sign-up-new"
+          class="w-[1100px] h-[349px] rounded-2xl bg-[#f4f7fc]"
+          >
+          <form
+            id="sign-up-email"
+            class="flex pt-14 flex-col font-medium items-center "
+          >
+            <label
+              for="email-address"
+              class="text-4xl text-center text-[#0b0757] max-[768px]:w-80 "
+              >Sign up to our newsletter</label>
+
+            <div
+              id="detail-sign"
+              class="text-xl text-center pt-6 font-normal text-[#8480ae] max-[768px]:w-80"
+            >
+              <span>Recive latest news, updates and many</span><span class="block max-[768px]:inline"> other news every week.</span>
+            </div>
+            <div id="summit-email" class="pt-10 relative max-[768px]:w-80">
+              <input
+                type="email"
+                id="email-address"
+                name="enter-email"
+                class="rounded-full w-[480px] h-[67px] text-base font-normal pl-10 focus:outline-none focus:border-2 border-blue-900 max-[768px]:w-80"
+                placeholder="Enter your email address"
+              />
+
+              <button type="submit" class="absolute right-4 bottom-2.5">
+                <div
+                  id="button-summit"
+                  class="w-12 h-12 rounded-full flex justify-center items-center bg-[#1374F6] hover:bg-blue-400 active:bg-blue-500"
+                >
+                  <i id="arrow-right"></i>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer
+        id="footer-page"
+        class="flex-col items-center justify-center"
+      >
+        <div class="flex justify-center">
+          <nav
+            class="grid grid-cols-5 gap-x-5 w-[1121px] pb-20 mt-20 border-b-[1px] border-[#d1d0e6]"
+          >
+            <div id="agencio" class="col-start-1 col-end-3">
+              <h1 class="text-2xl font-medium text-[#0b0757] pb-5 relative"><img src="\img\Polygon 3.svg" class="inline-block pr-5 "><img src="\img\Polygon 4.svg" class="inline-block absolute left-2 top-1"> Agencio</h1>
+              <p class="text-[#8480AE]">
+                Winged moving moveth created for shall and a 
+                <p class="text-[#8480AE]">divide the their
+                  days male midst shall hath </p>
+                  <p class="text-[#8480AE]">doesn't won't for. Midst life.Over a
+                    great night.</p>
+              </p>
+              <div id="logo-social" class="flex-row inline-flex gap-4 pt-5">
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (3).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (2).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame (1).svg">
+                </a>
+                <a href="">
+                  <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                    <img src="\img\Frame.svg">
+                </a>
+
+              </div>
+            </div>
+            <div id="feature" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                Feature
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Analytic</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Activity</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Influencer</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Publishing</li></a>
+                
+              </div>
+            </div>
+            <div id="about" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                About
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Blog</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Pricing</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Company</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Careers</li></a>
+
+              </div>
+            </div>
+            <div id="resources" class="list-none">
+              <ul class="text-2xl font-medium text-[#0b0757] pb-5">
+                Resources
+              </ul>
+              <div class="text-[#8480AE] flex flex-col space-y-2 ">
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Application Security</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Software Policy</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Supply Chain</li></a>
+                <a href=""><li  class="hover:text-blue-950 cursor-pointer">Manage Reputation</li></a>
+
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div id="copyright" class="flex justify-center pt-10 text-[#0B075733]">
+          Copyright ©2020 Agencio. All Rights Reserved
+        </div>
+      </footer>
+
+      <footer
+      id="footer-page-mobile"
+      class="flex-col">
+      <div class="flex justify-center">
+        <nav class="w-[1121px] mt-10 border-b-[1px] border-[#d1d0e6]">
+          <div id="agencio" class=" m-5 ml-7">
+            <h1 class="text-4xl font-medium text-[#0b0757] pb-5 relative"><img src="\img\Polygon 3.svg" class="inline-block pb-2 pr-5 "><img src="\img\Polygon 4.svg" class="inline-block absolute left-2 top-1"> Agencio</h1>
+            <p class="text-[#8480AE]">
+              Winged moving moveth created for shall and a 
+              <span class="text-[#8480AE]">divide the their
+                days male midst shall hath </span>
+                <span class="text-[#8480AE]">doesn't won't for. Midst life.Over a
+                  great night.</span>
+            </p>
+            <div id="logo-social" class="flex-row inline-flex gap-4 pt-10">
+              <a href="">
+                <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                  <img src="\img\Frame (3).svg">
+              </a>
+              <a href="">
+                <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                  <img src="\img\Frame (2).svg">
+              </a>
+              <a href="">
+                <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                  <img src="\img\Frame (1).svg">
+              </a>
+              <a href="">
+                <span class="rounded-full w-[32px] h-[32px] bg-[#1374F626] flex items-center justify-center hover:bg-blue-200 cursor-pointer">
+                  <img src="\img\Frame.svg">
+              </a>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="dropdown-feat">
+          <div class=" pt-16 pr-7 pb-8 flex flex-row justify-between border-b-[1px] border-[#d6d6e3]">
+            <span for="feature-mobile" class="list-none text-2xl font-semibold text-[#0b0757] pl-7">Features</span>
+            <img src="\img\Frame-button.svg" class="inline-flex">
+          </div>
+          <ul id="feature-mobile" class="text-[#8480AE] flex flex-col space-y-2">
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Analytic</a></li>
+            <li class="hover:text-blue-950 cursor-pointer"><a href="">Activity</a></li>
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Influencer</a></li>
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Publishing</a></li>
+          </ul>
+      </div>
+      <div class="dropdown-feat">
+        <div class=" pt-8 pr-7 pb-8 flex flex-row justify-between border-b-[1px] border-[#d6d6e3]">
+          <span for="feature-mobile" class="list-none text-2xl font-semibold text-[#0b0757] pl-7">About</span>
+          <img src="\img\Frame-button.svg" class="inline-flex">
+          <ul id="feature-mobile" class="text-[#8480AE] flex flex-col space-y-2">
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Blog</a></li>
+            <li class="hover:text-blue-950 cursor-pointer"><a href="">Pricing</a></li>
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Company</a></li>
+            <li  class="hover:text-blue-950 cursor-pointer"><a href="">Careers</a></li>
+          </ul>
+        </div>
+          
+      <div class="dropdown-feat">
+          <div class=" pt-8 pr-7 pb-8 flex flex-row justify-between border-b-[1px] border-[#d6d6e3]">
+            <span for="feature-mobile" class="list-none text-2xl font-semibold text-[#0b0757] pl-7">Resources</span>
+            <img src="\img\Frame-button.svg" class="inline-flex">
+            <ul id="feature-mobile" class="text-[#8480AE] flex flex-col space-y-2">
+              <li  class="hover:text-blue-950 cursor-pointer"><a href="">Application Security</a></li>
+              <li class="hover:text-blue-950 cursor-pointer"><a href="">Software Policy</a></li>
+              <li  class="hover:text-blue-950 cursor-pointer"><a href="">Supply Chain</a></li>
+              <li  class="hover:text-blue-950 cursor-pointer"><a href="">Manage Reputation</a></li>
+            </ul>
+          </div>
+
+      <div id="copyright" class="flex justify-center pt-10 text-[18px] font-normal text-[#8480AE]">
+        Copyright ©2020 Agencio
+      </div>
+    </footer>
+    </section>
+    <!-- Footer **K.Mint**-->
+ 
   </body>
 </html>
