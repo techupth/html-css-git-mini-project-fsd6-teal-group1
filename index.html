@@ -45,7 +45,7 @@
     <title>Mini-Project-Teal-Group1</title>
   </head>
 
-  <body class="flex flex-col justify-between items-center">
+  <body class="flex flex-col justify-between items-center  overflow-x-hidden">
     <!-- Header **K.Toei**-->
     <section class="header w-full h-auto border-spacing-3 flex justify-center"
     style="background: linear-gradient(5deg, white 15%, #f4f7fc 15%)">
@@ -248,31 +248,34 @@
       </article>
     </div>
   </main>
-</section>
+</section>*
+
 <!-- Take Your Hand **K.Wu**-->  
-<section class="w-full min-h-[791px] flex justify-center shrink-[2] relative">
+<section class="max-w-[1440px] w-full min-h-[791px] relative">
+  <div class="section-bg h-[855px] w-full z-[-1] flex justify-center min-h-[791px] max-[1176px]:h-[1031px]">
+    <img
+    src="./images/Rectangle 137.png"
+    alt=""
+    class="absolute top-0 left-[183px] w-[1273px] h-[855px]
+    max-[1176px]:left-0  max-[1176px]:h-[913.5px] max-[768px]:hidden"
+  />
+  <img
+      src="./images/Rectangle 137.svg"
+      alt=""
+      class="absolute top-0 z-[10] hidden
+      left-0  max-[768px]:block h-[900px]"
+    />
   
   <main
     class="take-your-hand-container max-w-[1176px] flex gap-[95px] relative pl-[68px] 
-    max-[1176px]:flex-col-reverse max-[768px]:pl-[18px] max-[768px]:gap-[32px] overflow-hidden"
+    max-[768px]:flex-col-reverse max-[768px]:pl-[18px] max-[768px]:gap-[32px] overflow-hidden z-[10]"
   >
-  <img
-    src="./images/Rectangle 137.png"
-    alt=""
-    class="absolute top-0 z-[-1] w-screen
-    max-[1176px]:left-0  max-[1176px]:h-[913.5px] max-[768px]:hidden"
-  />
-    <img
-      src="./images/Rectangle 137.svg"
-      alt=""
-      height="913.5px"
-      class="absolute top-0 z-[-1] hidden
-      left-0  max-[768px]:block"
-    />
+  
+    
 
     <!-- flex item1 -->
     <article
-      class="z-10 relative shrink-0 
+      class="z-[10] relative shrink-0 
       max-[768px]:flex justify-center max-[768px]:pb-[108px]
       max-[1176px]:pb-[108px]"
     >
@@ -300,7 +303,7 @@
     <article class="max-w-[570px] z-[10] flex flex-col pt-[203px] gap-[40px] pb-[10px] shrink max-[768px]:w-[327px] max-[768px]:pt-[146px] max-[768px]:gap-[32px]">
       
         <h1
-          class="text-[#0B0757] w-[404px] relative
+          class="text-[#0B0757] w-[404px] relative z-[10]
           font-[500] text-[48px] leading-[56.88px]  
           max-[768px]:text-[36px] max-[768px]:leading-[42.66px] max-[768px]:w-[301px]"
         >
@@ -333,6 +336,7 @@
           </button>
     </article>
   </main>
+</div>
 </section>
 <!-- Pricing Plan **K.Nu**-->
          <section
